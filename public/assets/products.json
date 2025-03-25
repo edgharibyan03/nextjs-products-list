@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "price": 12000,
+    "title": "Футболка",
+    "brand": "Lacoste",
+    "novelty": true,
+    "description": "Some description for product"
+  },
+  {
+    "id": 1,
+    "price": 15000,
+    "title": "Брюки",
+    "brand": "Gucci",
+    "novelty": false,
+    "description": "Some description for product"
+  },
+  {
+    "id": 2,
+    "price": 8000,
+    "title": "Шляпа",
+    "brand": "Roberto",
+    "novelty": true,
+    "description": "Some description for product"
+  },
+  {
+    "id": 3,
+    "price": 5000,
+    "title": "Ботинки",
+    "brand": "Gucci",
+    "novelty": false,
+    "description": "Some description for product"
+  }
+]
