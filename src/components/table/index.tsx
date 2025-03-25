@@ -81,9 +81,9 @@ export function Table({ data }: IProps) {
           columns={columnsWithCart(cart, handleAdd, handleRemove)}
           onCellClick={handleCellClick}
           disableColumnFilter
+          hideFooter
           disableColumnMenu
           disableRowSelectionOnClick
-          checkboxSelection
           sx={{
             '& .MuiDataGrid-filler': { display: 'none' },
             '& .MuiDataGrid-row': { cursor: 'pointer' }
