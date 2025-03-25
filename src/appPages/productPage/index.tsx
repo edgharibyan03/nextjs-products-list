@@ -5,13 +5,13 @@ import { useMainContext } from '@/contexts/MainContext';
 import { useEffect, useState } from 'react';
 import { IProduct } from '@/interfaces';
 
-export function ProductPage({ id }: { id: number }) {
+export function ProductPage({ id }: { id: string }) {
   const [product, setProduct] = useState<IProduct | null>(null)
 
   const { handleGetProduct } = useMainContext()
 
   const handleSetProduct = async () => {
-    const product = await handleGetProduct(id)
+    const product = await handleGetProduct(+id)
     setProduct(product)
   }
 
